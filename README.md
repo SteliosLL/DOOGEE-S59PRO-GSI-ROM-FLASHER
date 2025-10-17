@@ -23,8 +23,9 @@ NOTE: DO NOT USE A GSI WHOSE .img FILES ARE LARGER THAN 2.9GB OTHERWISE THE FLAS
 
 ### How to flash:
 - Flash the Stock rom using SP flash tool.
-- Dwnload the GSI of your choice and extract it. You will get the .img system image. Rename it to system.img. 
-- Download this repo and extract it. Copy the system.img of the GSI into the "images" folder inside the extracted folder of the repo.
+- Download this repo and extract it. Go into the extracted folder and find the "images" folder. Inside it you will find a file "product.7z". Extract it.
+- Download the GSI of your choice and extract it. You will get the .img system image. Rename it to system.img. 
+- Now while you are still in the "images" folder of the repo, copy there the system.img you renamed earlier.
 - Go back a folder and you will see 2 batch files. Choose either to install with TWRP or without.
 - After you run the batch file its going to ask you whether you want to keep the data (DO NOT KEEP UNLESS YOU KNOW WHAT YOU ARE DOING) and if you want to flash rooted boot.img so that you can install magisk.
 - Wait for the installation to finish. Done.
