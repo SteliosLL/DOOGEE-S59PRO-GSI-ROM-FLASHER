@@ -19,7 +19,7 @@ The letter "g" in bgS means that it has the GAPPS already preinstalled. I sugges
 For example, ff you want to download a superior OS android 12 GSI, you should download the file:<br>
 SuperiorOS_A12L-RO-arm64-bgN-slim_20230806.img.xz 
 
-NOTE: DO NOT USE A GSI WHOSE .img FILES ARE LARGER THAN 2.9GB OTHERWISE THE FLASHING PROCESS WILL FAIL.
+**NOTE: DO NOT USE A GSI WHOSE .img FILES ARE LARGER THAN 2.9GB OTHERWISE THE FLASHING PROCESS WILL FAIL.**
 
 ### How to flash:
 - Flash the Stock rom using SP flash tool.
