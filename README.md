@@ -1,4 +1,4 @@
-# DOOGEE-S59PRO-GSI-ROM-INSTALLER
+# DOOGEE-S59PRO-GSI-ROM-FLASHER
 Flash scripts that allow you to flash any GSI system image with TWRP and rooted boot.img options included.
 
 ### TWRP issues:
