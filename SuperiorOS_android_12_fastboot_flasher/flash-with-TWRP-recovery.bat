@@ -35,7 +35,7 @@ if /I "%USER_CHOICE%"=="YES" (
     echo Keeping userdata partition...
 ) else (
     echo Erasing userdata partition...
-    fastboot erase userdatas || (echo Erase userdata error & set ERROR_FLAG=1)
+    fastboot erase userdata || (echo Erase userdata error & set ERROR_FLAG=1)
 )
 endlocal
 setlocal
