@@ -22,7 +22,7 @@ SuperiorOS_A12L-RO-arm64-bgN-slim_20230806.img.xz
 **NOTE: DO NOT USE A GSI WHOSE .img FILES ARE LARGER THAN 2.9GB OTHERWISE THE FLASHING PROCESS WILL FAIL.**
 
 ### How to flash:
-- Flash the Stock rom using SP flash tool.
+- Flash the Stock ROM using SP flash tool.
 - Download this repo and extract it. Go into the extracted folder and find the "images" folder. Inside it you will find a file "product.7z". Extract it.
 - Download the GSI of your choice and extract it. You will get the .img system image. Rename it to system.img. 
 - Now while you are still in the "images" folder of the repo, copy there the system.img you renamed earlier.
