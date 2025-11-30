@@ -31,6 +31,7 @@ SuperiorOS_A12L-RO-arm64-bgN-slim_20230806.img.xz
 - Wait for the installation to finish. Done.
 
 ## Recommended GSI ROMs
+(BEST) CrDroid with GAPPS (Android 11): [Download](https://sourceforge.net/projects/treblerom/files/crDRom11/2022.03.30/crdrom-v316-220330-arm64-bgZ.img.xz/download) <br>
 Superior OS with GAPPS (Android 12): [Download](https://github.com/ChonDoit/treble_superior_patches/releases/download/A12L/SuperiorOS_A12L-RO-arm64-bgN-slim_20230806.img.xz) <br>
-CAOS (Android11) with GAPPS: [Download](https://sourceforge.net/projects/treblerom/files/CAOS11/2022.03.21/caos-v316-220321-arm64-bgZ.img.xz) <br>
-CAOS (Android10) with GAPPS: [Download](http://sourceforge.net/projects/treblerom/files/CAOS/2020.10.29/caos-v224-201029-arm64-bgN.img.xz) <br>
+CAOS with GAPPS (Android11): [Download](https://sourceforge.net/projects/treblerom/files/CAOS11/2022.03.21/caos-v316-220321-arm64-bgZ.img.xz) <br>
+CAOS with GAPPS (Android10): [Download](http://sourceforge.net/projects/treblerom/files/CAOS/2020.10.29/caos-v224-201029-arm64-bgN.img.xz) <br>
