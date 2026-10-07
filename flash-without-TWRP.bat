@@ -1,8 +1,8 @@
 @echo off
 echo ---------------------------------------------------------------------------------------------------
-echo SuperiorOS GSI ROM flasher for Doogee S59 Pro. Please connect your device in fastbootd mode
+echo GSI ROM flasher for Doogee S59 Pro. Please connect your device in fastbootd mode
 echo ---------------------------------------------------------------------------------------------------
-echo NO TWRP FLASH
+echo WITHOUT TWRP
 echo ----------------
 set "ERROR_FLAG=0"
 

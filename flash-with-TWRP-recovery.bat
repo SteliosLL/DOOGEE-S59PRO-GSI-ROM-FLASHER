@@ -1,8 +1,8 @@
 @echo off
 echo ---------------------------------------------------------------------------------------------------
-echo SuperiorOS GSI ROM flasher for Doogee S59 Pro. Please connect your device in fastbootd mode
+echo GSI ROM flasher for Doogee S59 Pro. Please connect your device in fastbootd mode
 echo ---------------------------------------------------------------------------------------------------
-echo NO TWRP FLASH
+echo TWRP INCLUDED
 echo ----------------
 set "ERROR_FLAG=0"
 
@@ -65,18 +65,22 @@ endlocal
 fastboot --disable-verity --disable-verification flash vbmeta %~dp0\images\vbmeta.img || (echo Flash vbmeta error & set ERROR_FLAG=1)
 fastboot --disable-verity --disable-verification flash vbmeta_system %~dp0\images\vbmeta_system.img || (echo Flash vbmeta_system error & set ERROR_FLAG=1)
 fastboot --disable-verity --disable-verification flash vbmeta_vendor %~dp0\images\vbmeta_vendor.img || (echo Flash vbmeta_vendor error & set ERROR_FLAG=1)
-fastboot flash recovery %~dp0\images\recovery_twrp.img || (echo Flash recovery error & set ERROR_FLAG=1)
 echo ----------------------------------------------------------------------------------------------------------
 echo Rebooting to fastbootd mode...
 echo ----------------------------------------------------------------------------------------------------------
 fastboot reboot fastboot || (echo Reboot to fastbootd error & set ERROR_FLAG=1)
 fastboot flash product %~dp0\images\product.img || (echo Flash product error & set ERROR_FLAG=1)
 fastboot flash system %~dp0\images\system.img || (echo Flash system error & set ERROR_FLAG=1)
+echo ----------------------------------------------------------------------------------------------------------
+echo Rebooting to fastboot mode...
+echo ----------------------------------------------------------------------------------------------------------
+fastboot reboot bootloader || (echo Reboot to fastboot error & set ERROR_FLAG=1)
+fastboot flash recovery %~dp0\images\recovery_twrp.img || (echo Flash recovery error & set ERROR_FLAG=1)
 
 echo.
 echo +------------------+
 if %ERROR_FLAG% EQU 0 (
-    echo ^|   DONE           ^|
+    echo ^|   DONE. Please reboot your phone. ^|
 ) else (
     echo ^| DONE: with errors ^|
 )
