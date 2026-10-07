@@ -28,7 +28,7 @@ SuperiorOS_A12L-RO-arm64-bgN-slim_20230806.img.xz
 - Now while you are still in the "images" folder of the repo, copy there the system.img you renamed earlier.
 - Go back a folder and you will see 2 batch files. Choose either to install with TWRP or without (without recommended).
 - After you run the batch file its going to ask you whether you want to keep the data (DO NOT KEEP UNLESS YOU KNOW WHAT YOU ARE DOING) and if you want to flash rooted boot.img so that you can install magisk.
-- Wait for the installation to finish. Done.
+- Wait for the installation to finish. Reboot when its done.
 
 ## Recommended GSI ROMs
 (BEST) CrDroid with GAPPS (Android 11): [Download](https://sourceforge.net/projects/treblerom/files/crDRom11/2022.03.30/crdrom-v316-220330-arm64-bgZ.img.xz/download) <br>
